@@ -79,19 +79,19 @@
 
     </div>
 
-    <form action="">
+    <form action="enviar.php" method="post">
 
         <div class="inputBox">
-            <input type="text" placeholder="tu nombre">
-            <input type="number" placeholder="tu numero">
+            <input type="text" name="name" placeholder="tu nombre">
+            <input type="number" name="phone" placeholder="tu numero">
         </div>
 
         <div class="inputBox">
-            <input type="email" placeholder="tu email">
-            <input type="text" placeholder="asunto">
+            <input type="email" name="mail" placeholder="tu email">
+            <input type="text" name="asunto" placeholder="asunto">
         </div>
 
-        <textarea name="" placeholder="tu mensaje" id="" cols="30" rows="10"></textarea>
+        <textarea name="message" placeholder="tu mensaje" id="" cols="30" rows="10"></textarea>
 
         <input type="submit" value="enviar mensaje" class="btn">
 
