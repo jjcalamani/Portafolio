@@ -82,18 +82,18 @@
     <form action="enviar.php" method="post">
 
         <div class="inputBox">
-            <input type="text" name="name" placeholder="tu nombre">
-            <input type="number" name="phone" placeholder="tu numero">
+            <input type="text" name="name" placeholder="tu nombre" required>
+            <input type="number" name="phone" placeholder="tu numero" required>
         </div>
 
         <div class="inputBox">
-            <input type="email" name="mail" placeholder="tu email">
-            <input type="text" name="asunto" placeholder="asunto">
+            <input type="email" name="mail" placeholder="tu email" required>
+            <input type="text" name="asunto" placeholder="asunto" required>
         </div>
 
-        <textarea name="message" placeholder="tu mensaje" id="" cols="30" rows="10"></textarea>
+        <textarea name="message" placeholder="tu mensaje" id="" cols="30" rows="10" required></textarea>
 
-        <input type="submit" value="enviar mensaje" class="btn">
+        <input type="submit" value="enviar" class="btn">
 
     </form>
 
