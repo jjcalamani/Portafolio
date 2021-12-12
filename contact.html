@@ -79,7 +79,7 @@
 
     </div>
 
-    <form action="enviar.php" method="post">
+    <form action = "https://formsubmit.co/temuergu@gmail.com " method = "POST" >
 
         <div class="inputBox">
             <input type="text" name="name" placeholder="tu nombre" required>
@@ -87,13 +87,13 @@
         </div>
 
         <div class="inputBox">
-            <input type="email" name="mail" placeholder="tu email" required>
+            <input type="email" name="email" placeholder="tu email" required>
             <input type="text" name="asunto" placeholder="asunto" required>
         </div>
 
         <textarea name="message" placeholder="tu mensaje" id="" cols="30" rows="10" required></textarea>
-
-        <input type="submit" value="enviar" class="btn">
+        <input type="hidden" name="_next" value="https://jjc4.netlify.app/index.html">
+        <button type="submit" class="btn"> enviar</button>
 
     </form>
 
