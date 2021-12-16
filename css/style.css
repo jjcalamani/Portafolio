@@ -685,4 +685,10 @@ section {
     height: 40rem;
   }
 }
+
+@media (max-width: 540px) {
+  .heading {
+    font-size: 4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
